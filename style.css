@@ -1,0 +1,216 @@
+body{
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.mainContainer{
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-rows: 5fr 3fr;
+}
+/* Style of space where game will heppen */
+.playground{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/* Style of keyboard and letters */
+.keyboard{
+    height: 100%;
+    width:100%;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.keyboardRow{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.upper{
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+.middle{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.lower{
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.letterKey{
+    width: 6%;
+    height: 80%;
+    border: lightblue solid 5px;
+    border-radius: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 400%;
+    color: lightblue;
+}
+
+.gallows{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    overflow: hidden;
+}
+
+.first{
+    position: absolute;
+    background-color: lightblue;
+    width: 20px;
+    height: 480px;
+    left: 995px;
+}
+
+.second{
+    background-color: lightblue;
+    height: 20px;
+    position: absolute;
+    width: 250px;
+    top: 5%;
+    left: 789px;
+}
+
+.third{
+    position: absolute;
+    background-color: lightblue;
+    width: 100px;
+    height: 20px;
+    transform-origin: center;
+    transform: rotate(45deg);
+    top: 470px;
+    left: 987px;
+}
+
+.forth{
+    position: absolute;
+    background-color: lightblue;
+    width: 100px;
+    height: 20px;
+    transform-origin: center;
+    transform: rotate(315deg);
+    top: 468px;
+    left: 929px;
+    z-index: 0;
+}
+
+.fifth{
+    position: absolute;
+    top: 51px;
+    left: 998px;
+    width: 15px;
+    height: 15px;
+    background-color: #77c6e0;
+    border-radius: 50px;
+}
+
+.sixs{
+    position: absolute;
+    top: 68px;
+    left: 800px;
+    height: 50px;
+    width: 3px;
+    background-color: lightblue;
+}
+
+.seventh{
+    width: 50px;
+    height: 50px;
+    border-radius: 0 50% 50% 50%;
+    border: 3px solid lightblue;
+    transform: rotate(45deg);
+    margin-top: 20px;
+    position: absolute;
+    top: 105px;
+    left: 773px;
+}
+
+.head{
+    background-color: blue;
+    width: 45px;
+    height: 45px;
+    border-radius: 32px;
+    top: 133px;
+    left: 778px;
+}
+
+.manBody{
+    position: absolute;
+    background-color: blue;
+    height: 130px;
+    width: 50px;
+    border-radius: 19px;
+    top: 180px;
+    left: 775px;
+}
+
+.rightleg{
+    position: absolute;
+    background-color: blue;
+    height: 120px;
+    width: 15px;
+    border-radius: 6px;
+    top: 301px;
+    left: 821px;
+    transform: rotate(350deg);
+}
+
+.leftleg{
+    background-color: blue;
+    height: 120px;
+    width: 15px;
+    border-radius: 6px;
+    top: 301px;
+    left: 764px;
+    transform: rotate(10deg);
+}
+
+.rightarm{
+    height: 81px;
+    width: 15px;
+    background-color: blue;
+    border-radius: 8px;
+    top: 177px;
+    left: 840px;
+    transform: rotate(315deg);
+}
+
+.leftarm{
+    height: 81px;
+    width: 15px;
+    background-color: blue;
+    border-radius: 8px;
+    top: 177px;
+    left: 746px;
+    transform: rotate(45deg);
+}
+
+.firework{
+    position: absolute;
+    border-radius: 50%;
+    height: 10px;
+    width: 10px;
+    border-style: solid;
+}
+
+.firework2{
+    position: absolute;
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    border-style: solid;
+}
